@@ -33,6 +33,11 @@ public class Car extends Vehicle{
 	public void setBodyType(String bodyType) {
 		this.bodyType = bodyType;
 	}
+
+	@Override
+	public String toString() {
+		return "Car [isManual=" + isManual + ", bodyType=" + bodyType + "]";
+	}
 	
 	
 

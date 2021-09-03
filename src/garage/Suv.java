@@ -38,6 +38,11 @@ public class Suv extends Vehicle {
 	public void setOffRoad(boolean offRoad) {
 		this.offRoad = offRoad;
 	}
+
+	@Override
+	public String toString() {
+		return "Suv [isFourWheelDrive=" + isFourWheelDrive + ", offRoad=" + offRoad + "]";
+	}
 	
 	
 }

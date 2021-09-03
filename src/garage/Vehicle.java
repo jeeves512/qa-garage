@@ -19,6 +19,12 @@ public class Vehicle {
 		System.out.println("The total is " + total);
 		return total;
 	}
+	@Override
+	public String toString() {
+		return "Vehicle [id=" + id + ", licencePlate=" + licencePlate + ", year=" + year + ", isElectric=" + isElectric
+				+ "]";
+	}
+
 	public int getId() {
 		return id;
 	}
